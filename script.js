@@ -29,6 +29,7 @@ function keyup(event)
     else if(event.key == ' ')
     {
         retangulo.y_velocity == 0;
+        retangulo.no_ar = false;
     }
     // retangulo.y_velocity = 0;
     // retangulo.x_velocity = 0;
