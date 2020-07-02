@@ -117,6 +117,7 @@ function loop() {
 }
 
 
-addEventListener("keydown", keydown)
+// addEventListener("keydown", keydown)
+addEventListener("keypress", keypress)
 addEventListener("keyup", keyup)
 loop();
