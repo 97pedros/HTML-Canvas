@@ -2,9 +2,8 @@ body{
     background-color: #000000;
 }
 canvas{
-    background-color: #9bbc0f;
+    background-color: #3399ff;
     height: 98vh;
-    cursor: none;
 }
 
 * {
