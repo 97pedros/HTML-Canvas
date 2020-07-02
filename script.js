@@ -39,20 +39,36 @@ function moveRight()
     retangulo.x_velocity = 5;
 }
 
-function keydown(event)
+// function keydown(event)
+// {
+
+//     if(event.key == ' ' && retangulo.no_ar == false)
+//     {
+//         jump();
+//     }
+//     if(event.key == 'a' || event.key == 'ArrowLeft')
+//     {
+//         moveLeft();
+//     }
+//     if(event.key == 'd' || event.key == 'ArrowRight')
+//     {
+//         moveRight();
+//     }
+// }
+
+function keypress(event)
 {
-    console.log(event.key)
-    if(event.key == ' ' && retangulo.no_ar == false)
+    if(event.key == 'd')
     {
-        jump();
+        moveRight();
     }
-    if(event.key == 'a' || event.key == 'ArrowLeft')
+    else if(event.key == 'a')
     {
         moveLeft();
     }
-    if(event.key == 'd' || event.key == 'ArrowRight')
+    else if(event.key == ' ')
     {
-        moveRight();
+        jump();
     }
 }
 
