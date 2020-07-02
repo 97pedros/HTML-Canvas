@@ -16,10 +16,22 @@ function full()
     canvas.requestFullscreen()
 }
 
-function keyup()
+function keyup(event)
 {
-    retangulo.y_velocity = 0;
-    retangulo.x_velocity = 0;
+    if(event.key == 'd')
+    {
+        retangulo.x_velocity = 0;
+    }
+    else if(event.key == 'a')
+    {
+        retangulo.x_velocity = 0;
+    }
+    else if(event.key == ' ')
+    {
+        retangulo.y_velocity == 0;
+    }
+    // retangulo.y_velocity = 0;
+    // retangulo.x_velocity = 0;
 }
 
 function jump()
