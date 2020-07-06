@@ -11,10 +11,6 @@ retangulo =
     no_ar: false
 };
 
-function full()
-{
-    canvas.requestFullscreen()
-}
 
 function keyup(event)
 {
